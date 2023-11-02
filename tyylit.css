@@ -1,8 +1,8 @@
 #left-panel {
   width: 200px;
-  background-color: #f0f0f0;
   float: left;
   height: 100%;
+}
 
 #left-panel ul {
   list-style-type: none;
@@ -32,8 +32,8 @@
 
 
 th, td {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
