@@ -12,7 +12,6 @@
 
 #left-panel ul li {
   padding: 5px;
-  border-bottom: 1px solid #ccc;
 }
 
 /* Add a black background color to the top navigation */
@@ -32,6 +31,7 @@
 
 
 th, td {
+  padding-top: 15px;
   padding-left: 60px;
   padding-right: 60px;
 }
