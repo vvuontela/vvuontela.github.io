@@ -16,7 +16,7 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: white;
+  background-color: pink;
   overflow: hidden;
 }
 
@@ -34,11 +34,34 @@ th, td {
   padding-top: 15px;
   padding-left: 60px;
   padding-right: 60px;
+  border: 1px solid;
 }
+
+tr:nth-child(even) {background-color: white;}
 
 #main-content {
   margin-left: 350px; /* Adjust this margin to make space for the left panel */
   padding: 20px;
+  text-align: center;
+}
+
+body {
+  background-color: pink;
+}
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: oblique;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
 }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
