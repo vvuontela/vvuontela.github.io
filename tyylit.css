@@ -6,7 +6,8 @@
 
 #left-panel ul {
   list-style-type: none;
-  padding: 0;
+  padding-top: 50px;
+  padding: 10px;
   margin: 0;
 }
 
