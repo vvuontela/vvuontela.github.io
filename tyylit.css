@@ -1,8 +1,8 @@
 #left-panel {
-  width: 350px;
-  height: max-content;
+  width: 200px;
+  background-color: #f0f0f0;
   float: left;
-}
+  height: 100%;
 
 #left-panel ul {
   list-style-type: none;
@@ -23,7 +23,6 @@
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -31,17 +30,6 @@
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: grey;
-  color: white;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: grey;
-  color: white;
-}
 
 th, td {
   padding-left: 40px;
